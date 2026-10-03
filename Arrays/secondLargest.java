@@ -18,7 +18,7 @@ class Solution{
  // only values smaller than largest can be valid for second largest
 
   for(int i=0;i<n;i++){
-    if(nums<largest){
+    if(num <largest){
 
     //keep the greatest valid value
     //found below the maximum
