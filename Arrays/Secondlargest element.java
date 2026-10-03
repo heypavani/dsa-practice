@@ -15,8 +15,8 @@ int largest=sortedNums[n-1];
   //starts from the end of the array 
   //n-1 is the first largest
   for(int i=n-2;i>=0;i--){
-    if(sortedNums[index]<largest){
-      return sortedNums[index];
+    if(sortedNums[i]<largest){
+      return sortedNums[i ];
     }
   }
   return -1;
